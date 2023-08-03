@@ -4,23 +4,20 @@
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
+  "homepage": "./",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "npm start",
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://hamsteryoon.github.io/simple-portfolio.git"
   },
-  "keywords": [],
-  "author": "Jacobo Martinez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
-  },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.9.3",
     "prettier": "^2.8.1"
   },
