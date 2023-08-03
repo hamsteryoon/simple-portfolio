@@ -2,14 +2,11 @@
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "./index.html",
-  "homepage": "./",
+  "description": "Ji's Portfolio",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "predeploy": "npm start",
-    "deploy": "gh-pages -b gh-pages -d build"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
